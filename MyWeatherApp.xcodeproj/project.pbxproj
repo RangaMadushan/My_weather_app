@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC2058DB206CD8760016F099 /* WeatherCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2058DA206CD8760016F099 /* WeatherCellViewModel.swift */; };
 		BC4CACE3206BF2ED00F70BFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4CACE2206BF2ED00F70BFC /* AppDelegate.swift */; };
 		BC4CACE8206BF2ED00F70BFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC4CACE6206BF2ED00F70BFC /* Main.storyboard */; };
 		BC4CACEA206BF2ED00F70BFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC4CACE9206BF2ED00F70BFC /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BC2058DA206CD8760016F099 /* WeatherCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCellViewModel.swift; sourceTree = "<group>"; };
 		BC4CACDF206BF2ED00F70BFC /* MyWeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyWeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC4CACE2206BF2ED00F70BFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC4CACE7206BF2ED00F70BFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 		BCA8FD4A206BF6B500994216 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				BC2058DA206CD8760016F099 /* WeatherCellViewModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -176,6 +179,7 @@
 				BCA8FD4D206BF70500994216 /* WeatherTableViewController.swift in Sources */,
 				BCA8FD51206C128F00994216 /* Weather.swift in Sources */,
 				BC4CACE3206BF2ED00F70BFC /* AppDelegate.swift in Sources */,
+				BC2058DB206CD8760016F099 /* WeatherCellViewModel.swift in Sources */,
 				BCA8FD53206C1D3700994216 /* APIClient.swift in Sources */,
 				BCA8FD55206C3D4400994216 /* Endpoint.swift in Sources */,
 			);
